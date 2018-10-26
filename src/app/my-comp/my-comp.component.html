@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let val of data; let i = index">{{ val }} - <button (click)="mutate(i)">mutate</button> - <button (click)="reEmit(i)">re-emit</button></li>
+</ul>
